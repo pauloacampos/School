@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a3ti.school.RElAlunosActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relatório da Turma"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <Spinner android:id="@+id/comboBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turma: 1º Ano"
+        android:textSize="18dp"
+        android:layout_marginTop="115dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow android:id="@+id/tabela_descricao"
+                android:paddingBottom="10dp"
+                android:background="#4f69ff">
+
+                <TextView
+                    android:text="ALUNO"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="13dp"
+                    android:layout_width="110dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="FALTAS"
+                    android:paddingRight="2dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="NOTA 01"
+                    android:paddingRight="5dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="NOTA 02"
+                    android:paddingRight="5dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="FINAL"
+                    android:paddingRight="5dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="MÃ‰DIA"
+                    android:gravity="right"
+                    android:paddingRight="5dp"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow android:id="@+id/tabela_conteudo_linha01"
+                android:paddingTop="5dp">
+                <TextView
+                    android:text="João da Mata"
+                    android:paddingRight="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="03"
+                    android:paddingRight="2dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="7.75"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="8.0"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="x"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="7,87"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:id="@+id/tabela_conteudo_linha02">
+                <TextView
+                    android:text="Maria Joaquina"
+                    android:paddingRight="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="12"
+                    android:paddingRight="2dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="5.0"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="5.0"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="10"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="7.0"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:id="@+id/tabela_conteudo_linha03">
+                <TextView
+                    android:text="Chico Bento"
+                    android:paddingRight="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="0"
+                    android:paddingRight="2dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="9.0"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="9.5"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="x"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="9.25"
+                    android:paddingRight="5dp"
+                    android:textColor="#000000" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

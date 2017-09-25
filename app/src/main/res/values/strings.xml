@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">School</string>
+    <string name="login">Login:</string>
+    <string name="senha">Senha:</string>
+    <string name="entrar">Entrar</string>
+    <string name="esqueci_minha_senha_login">Esqueci minha senha/login</string>
+    <string name="escolha_uma_op_o">Escolha uma opção</string>
+    <string name="sair">Sair</string>
+</resources>

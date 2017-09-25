@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.a3ti.school.ProfessorPrincipalActivity">
+
+
+    <ImageView
+        android:id="@+id/imageProf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logoschool"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor - fulano"
+        android:layout_below="@+id/imageProf"
+        android:layout_alignLeft="@+id/imageProf"
+        android:layout_alignStart="@+id/imageProf" />
+
+    <TextView
+        android:id="@+id/textOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textProf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/escolha_uma_op_o" />
+
+    <Button
+        android:id="@+id/btChamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textOpcoes"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Chamada" />
+
+    <Button
+        android:id="@+id/btNotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btChamada"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/btChamada"
+        android:layout_toRightOf="@+id/btChamada"
+        android:text="Notas" />
+
+    <Button
+        android:id="@+id/btRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btChamada"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/btNotas"
+        android:layout_toStartOf="@+id/btNotas"
+        android:text="Relatório" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btNotas"
+        android:layout_alignStart="@+id/btNotas"
+        android:layout_alignTop="@+id/btRelatorio"
+        android:text="Sair" />
+
+
+</RelativeLayout>
