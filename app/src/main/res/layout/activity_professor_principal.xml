@@ -33,47 +33,116 @@
         android:layout_marginTop="14dp"
         android:text="@string/escolha_uma_op_o" />
 
-    <Button
-        android:id="@+id/btChamada"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/iconescomunicacao0118"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignRight="@+id/imageProf"
+        android:layout_alignEnd="@+id/imageProf"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/iconesescola0117"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/textOpcoes"
-        android:layout_marginLeft="52dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="28dp"
-        android:text="Chamada" />
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
 
-    <Button
-        android:id="@+id/btNotas"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/iconesescola0136"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/iconesescola0131"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/iconesweb0175"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btChamada"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp"
-        android:layout_toEndOf="@+id/btChamada"
-        android:layout_toRightOf="@+id/btChamada"
-        android:text="Notas" />
+        android:layout_above="@+id/imageView6"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5"
+        android:text="Chamada"
+        android:textColor="#ffffff"/>
 
-    <Button
-        android:id="@+id/btRelatorio"
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btChamada"
-        android:layout_marginTop="17dp"
-        android:layout_toLeftOf="@+id/btNotas"
-        android:layout_toStartOf="@+id/btNotas"
-        android:text="Relatório" />
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textOpcoes"
+        android:layout_toRightOf="@+id/textOpcoes"
+        android:text="Relatórios"
+        android:textColor="#ffffff"/>
 
-    <Button
-        android:id="@+id/btSair"
+    <TextView
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btNotas"
-        android:layout_alignStart="@+id/btNotas"
-        android:layout_alignTop="@+id/btRelatorio"
-        android:text="Sair" />
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginBottom="14dp"
+        android:text="Notas"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginBottom="16dp"
+        android:text="Eventos"
+        android:textColor="#ffffff"/>
 
 
 </RelativeLayout>
