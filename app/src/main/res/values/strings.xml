@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">School</string>
+    <string name="app_name">School-SGE</string>
     <string name="login">Login:</string>
     <string name="senha">Senha:</string>
     <string name="entrar">Entrar</string>

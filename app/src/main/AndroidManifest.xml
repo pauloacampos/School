@@ -23,7 +23,8 @@
         <activity android:name=".ChamadaActivity" />
         <activity android:name=".RElAlunosActivity" />
         <activity android:name=".RElFilhoActivity" />
-        <activity android:name=".PaiEnviaMensagemActivity"></activity>
+        <activity android:name=".PaiEnviaMensagemActivity" />
+        <activity android:name=".IncluirNotasActivity"></activity>
     </application>
 
 </manifest>
