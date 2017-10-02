@@ -14,6 +14,7 @@ public class ProfessorPrincipalActivity extends AppCompatActivity {
     private ImageView btChamada;
     private ImageView btRelatorio;
     private ImageView btNotas;
+    private ImageView btEventos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,14 @@ public class ProfessorPrincipalActivity extends AppCompatActivity {
         btChamada = (ImageView) findViewById(R.id.btChamda);
         btRelatorio = (ImageView) findViewById(R.id.btRelatorio);
         btNotas = (ImageView) findViewById(R.id.btNotas);
+        btEventos = (ImageView) findViewById(R.id.btEventos);
+
+        btEventos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ProfessorPrincipalActivity.this, EventosActivity.class));
+            }
+        });
 
 
         btChamada.setOnClickListener(new View.OnClickListener() {

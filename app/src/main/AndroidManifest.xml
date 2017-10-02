@@ -24,7 +24,8 @@
         <activity android:name=".RElAlunosActivity" />
         <activity android:name=".RElFilhoActivity" />
         <activity android:name=".PaiEnviaMensagemActivity" />
-        <activity android:name=".IncluirNotasActivity"></activity>
+        <activity android:name=".IncluirNotasActivity" />
+        <activity android:name=".EventosActivity"></activity>
     </application>
 
 </manifest>

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.a3ti.school.IncluirNotasActivity">
+    tools:context="com.a3ti.school.EventosActivity">
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/site_em_construcao" />
+        app:srcCompat="@drawable/site_em_construcao"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp" />
 </RelativeLayout>

@@ -17,35 +17,35 @@
         android:layout_marginTop="14dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/btEventos"
         android:layout_width="120dp"
         android:layout_height="130dp"
         app:srcCompat="@drawable/eventos"
-        android:layout_marginLeft="45dp"
-        android:layout_marginStart="45dp"
         android:layout_below="@+id/btNotas"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
 
     <ImageView
         android:id="@+id/btChamda"
         android:layout_width="120dp"
         android:layout_height="130dp"
         app:srcCompat="@drawable/chamda"
-        android:layout_above="@+id/btNotas"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignStart="@+id/imageView2" />
+        android:layout_alignTop="@+id/btRelatorio"
+        android:layout_alignLeft="@+id/btEventos"
+        android:layout_alignStart="@+id/btEventos" />
 
     <ImageView
         android:id="@+id/btRelatorio"
         android:layout_width="120dp"
         android:layout_height="130dp"
         app:srcCompat="@drawable/image3465"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_above="@+id/btNotas"
-        android:layout_toRightOf="@+id/btNotas"
-        android:layout_toEndOf="@+id/btNotas" />
+        android:layout_toRightOf="@+id/btChamda"
+        android:layout_toEndOf="@+id/btChamda" />
 
     <ImageView
         android:id="@+id/btNotas"
@@ -53,8 +53,8 @@
         android:layout_height="130dp"
         app:srcCompat="@drawable/notas"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignStart="@+id/imageView2" />
+        android:layout_alignLeft="@+id/btEventos"
+        android:layout_alignStart="@+id/btEventos" />
 
     <ImageView
         android:id="@+id/btSair"
